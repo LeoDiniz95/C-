@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AppManager</name>
+    </assembly>
+    <members>
+        <member name="T:AppManager.AppExceptions">
+            <summary>
+            Classe para tratamento das exceções
+            </summary>
+        </member>
+        <member name="P:AppManager.AppExceptions.PathSaveExceptions">
+            <summary>
+            Obtem ou define o camin ho onde será gravado o arquivo Exceptions.txt;
+            
+            </summary>
+        </member>
+        <member name="M:AppManager.AppExceptions.SaveException(System.Exception)">
+            <summary>
+            Método para salvar os dados da exceção no arquivo Exceptions.txt
+            </summary>
+            <param name="ex">Classe Exception com os dados da umtima exceção ocorrida</param>
+        </member>
+    </members>
+</doc>
