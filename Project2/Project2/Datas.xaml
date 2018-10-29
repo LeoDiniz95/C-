@@ -1,0 +1,27 @@
+﻿<Window x:Class="Project2.Datas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project2"
+        mc:Ignorable="d"
+        Title="Datas" Height="520" Width="500">
+    <Grid>
+        <Calendar x:Name="Calendario" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" SelectedDatesChanged="Calendario_SelectedDatesChanged"/>
+
+        <Label x:Name="Dia" Content="Dia" HorizontalAlignment="Left" Margin="194,97,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="Mes" Content="Mes" HorizontalAlignment="Left" Margin="194,133,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="Ano" Content="Ano" HorizontalAlignment="Left" Margin="194,169,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="DiaSemana" Content="DiaSemana" HorizontalAlignment="Left" Margin="194,205,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="DataLonga" Content="DataLonga" HorizontalAlignment="Left" Margin="194,241,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="DateTimeUniversal" Content="DateTimeUniversal" HorizontalAlignment="Left" Margin="194,277,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="DataHoraAtual" Content="DataHoraAtual" HorizontalAlignment="Left" Margin="194,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        
+        <Button x:Name="StopTreading" Content="Stop Treading" HorizontalAlignment="Left" Margin="194,46,0,0" VerticalAlignment="Top" Width="86" Click="StopTreading_Click"/>
+        <Button x:Name="StartTreading" Content="Start Treading" HorizontalAlignment="Left" Margin="300,46,0,0" VerticalAlignment="Top" Width="95" IsEnabled="False" Click="StartTreading_Click"/>
+        
+        <Label x:Name="CultureDate" Content="label" HorizontalAlignment="Left" Margin="194,350,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Cronometro" Content="Cronometro" HorizontalAlignment="Left" Margin="40,241,0,0" VerticalAlignment="Top" FontSize="16"/>
+
+    </Grid>
+</Window>

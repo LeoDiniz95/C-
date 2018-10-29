@@ -1,0 +1,5 @@
+C:\Users\0040481422033\Downloads\CSharp\09_12_2017\Project2\AppManager\bin\Debug\AppManager.XML
+C:\Users\0040481422033\Downloads\CSharp\09_12_2017\Project2\AppManager\bin\Debug\AppManager.dll
+C:\Users\0040481422033\Downloads\CSharp\09_12_2017\Project2\AppManager\bin\Debug\AppManager.pdb
+C:\Users\0040481422033\Downloads\CSharp\09_12_2017\Project2\AppManager\obj\Debug\AppManager.dll
+C:\Users\0040481422033\Downloads\CSharp\09_12_2017\Project2\AppManager\obj\Debug\AppManager.pdb

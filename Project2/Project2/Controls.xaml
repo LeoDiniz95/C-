@@ -1,0 +1,46 @@
+﻿<Window x:Class="Project2.Controls"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project2"
+        mc:Ignorable="d"
+        Title="Controls" Height="300" Width="354" Closing="Window_Closing">
+    <Grid>
+        <Label x:Name="label_result" Content="" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_input" HorizontalAlignment="Left" Height="23" Margin="10,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Send_info" Content="Send" HorizontalAlignment="Left" Margin="152,31,0,0" VerticalAlignment="Top" Width="75" Click="Send_info_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB"/>
+                    <GradientStop Color="#FFDDDDDD"/>
+                    <GradientStop Color="#FFCDCDCD"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+        <CheckBox x:Name="checkBox_blue" Content="Blue" HorizontalAlignment="Left" Margin="10,77,0,0" VerticalAlignment="Top" Checked="checkBox_blue_Checked"/>
+        <CheckBox x:Name="checkBox_red" Content="Red" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" Checked="checkBox_red_Checked"/>
+        <CheckBox x:Name="checkBox_yellow" Content="Yellow" HorizontalAlignment="Left" Margin="10,119,0,0" VerticalAlignment="Top" Checked="checkBox_yellow_Checked"/>
+
+        <RadioButton x:Name="radioButton_mystic" Content="Mystic" HorizontalAlignment="Left" Margin="77,77,0,0" VerticalAlignment="Top" Background="#FF1749CD" Foreground="#FF1927B2" BorderBrush="#FF1111D4" FontFamily="Showcard Gothic" FontWeight="Bold" Checked="radioButton_mystic_Checked"/>
+        <RadioButton x:Name="radioButton1_valor" Content="Valor" HorizontalAlignment="Left" Margin="77,98,0,0" VerticalAlignment="Top" Foreground="#FFA00404" BorderBrush="#FFFF0808" Background="Red" FontFamily="Showcard Gothic" FontWeight="Bold" Checked="radioButton1_valor_Checked"/>
+        <RadioButton x:Name="radioButton2_instinct" Content="Instict" HorizontalAlignment="Left" Margin="77,122,0,0" VerticalAlignment="Top" Background="Yellow" BorderBrush="Yellow" Foreground="Yellow" FontFamily="Showcard Gothic" FontWeight="Bold" Checked="radioButton2_yellow_Checked"/>
+
+        <ComboBox x:Name="Paises" HorizontalAlignment="Left" Margin="162,77,0,0" VerticalAlignment="Top" Width="158" SelectionChanged="Paises_SelectionChanged">
+
+            <ComboBoxItem Content="Brasil" Foreground="#FF1F6A09"/>
+            <ComboBoxItem Content="Mexico" Foreground="#FFF50707"/>
+            <ComboBoxItem Content="Argentina" Foreground="#FF073EF9"/>
+            <ComboBoxItem Content="Venezuela" Foreground="#FF83E80A"/>
+            <ComboBoxItem Content="Uruguai" Foreground="#FF1E31AC"/>
+            <ComboBoxItem Content="Paraguai" Foreground="#FFCF0909"/>
+
+        </ComboBox>
+        
+        <CheckBox x:Name="checkBox" Content="Exibe Uma Mensagem &quot;MessageBox&quot;" HorizontalAlignment="Left" Margin="10,194,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
+        <Button x:Name="Sair" Content="Sair" HorizontalAlignment="Left" Margin="230,220,0,0" VerticalAlignment="Top" Width="75" FontSize="16" Click="Sair_Click"/>
+
+    </Grid>
+</Window>
